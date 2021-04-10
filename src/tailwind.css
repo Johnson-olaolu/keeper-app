@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header >h1 {
+    @apply text-white ;
+}
+
+footer {
+    @apply absolute text-center w-full h-10 bottom-0;
+}
+
+footer >p {
+    color: #cccccc;
+}
+
+body {
+    background-color:  #eeeeee;
+    @apply px-4;
+}
